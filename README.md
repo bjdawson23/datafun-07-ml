@@ -2,9 +2,7 @@
 Intoduction to Predictive ML Project
 Branton Dawson
 
-## Dataset is a sampling of passengers on the Titanic
-https://github.com/mwaskom/seaborn-data/blob/master/titanic.csv 
-![image](https://github.com/user-attachments/assets/3fc2be56-b3a5-4514-8266-86e38204f0f4)
+## Dataset
 
 ## 1. Virtual Environment Management (Windows PowerShell)
 
