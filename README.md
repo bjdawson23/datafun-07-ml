@@ -86,12 +86,12 @@ python -m spacy download en_core_web_sm
 py -m pip install --upgrade pip build setuptools wheel 
 py -m pip install --upgrade ipykernel jupyterlab
 ```
-Start a New Jupyter Notebook
-Chart a Straight Line (Part 1)
-Predict Avg High Temp in NYC in January (Part 2)
-Predict Avg High Temp in NYC in January (Part 3)
-Add Insights (Part 4)
-Optional Bonus
+--Start a New Jupyter Notebook
+--Chart a Straight Line (Part 1)
+--Predict Avg High Temp in NYC in January (Part 2)
+--Predict Avg High Temp in NYC in January (Part 3)
+--Add Insights (Part 4)
+--Optional Bonus
 
 
 
