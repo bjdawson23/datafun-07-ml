@@ -91,6 +91,11 @@ py -m pip install --upgrade ipykernel jupyterlab
 --Predict Avg High Temp in NYC in January (Part 2)
 --Predict Avg High Temp in NYC in January (Part 3)
 --Add Insights (Part 4)
+- The visualization helps us understand how NYC temperatures change over time, how well your model fits the data, and whether there are any unusual temperature events or trends worth further investigation.   
+- The y-axis is limited to 10–70°F, focusing the visualization on the most relevant temperature range and making outliers or extreme values more apparent. 
+- Any points far from the trend line or the main cluster may indicate outliers or unusual weather events. 
+- The scatterplot shows how temperature varies across different dates, allowing you to visually assess seasonal trends, patterns, or anomalies in NYC temperature data.
+- 
 --Optional Bonus
 
 
