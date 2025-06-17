@@ -4,6 +4,8 @@ Branton Dawson
 
 ## Dataset
 
+Intro to machine learning (ML). At a high-level, there are three general categories of ML: supervised, unsupervised, and reinforcement learning. We'll employ a type of supervised learning, simple linear regression, to train a model and use the resulting model (a "best-fit" straight line) to make predictions.
+
 ## 1. Virtual Environment Management (Windows PowerShell)
 
 1. **Create a virtual environment**
@@ -80,4 +82,18 @@ git push
 ```
 pip install -U spacy
 python -m spacy download en_core_web_sm
+
+py -m pip install --upgrade pip build setuptools wheel 
+py -m pip install --upgrade ipykernel jupyterlab
 ```
+Start a New Jupyter Notebook
+Chart a Straight Line (Part 1)
+Predict Avg High Temp in NYC in January (Part 2)
+Predict Avg High Temp in NYC in January (Part 3)
+Add Insights (Part 4)
+Optional Bonus
+
+
+
+       distribute storytelling as we scroll through the notebook. 
+
