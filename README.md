@@ -75,30 +75,43 @@ git push
 
 ---
 
-## P7 Predictive ML Project
+# P7 Predictive ML Project
 
-### Steps
+## Setup Instructions
 
-```
+```sh
 pip install -U spacy
 python -m spacy download en_core_web_sm
 
-py -m pip install --upgrade pip build setuptools wheel 
+py -m pip install --upgrade pip build setuptools wheel
 py -m pip install --upgrade ipykernel jupyterlab
 ```
---Start a New Jupyter Notebook
---Chart a Straight Line (Part 1)
---Predict Avg High Temp in NYC in January (Part 2)
---Predict Avg High Temp in NYC in January (Part 3)
---Add Insights (Part 4)
-- The visualization helps us understand how NYC temperatures change over time, how well your model fits the data, and whether there are any unusual temperature events or trends worth further investigation.   
-- The y-axis is limited to 10–70°F, focusing the visualization on the most relevant temperature range and making outliers or extreme values more apparent. 
-- Any points far from the trend line or the main cluster may indicate outliers or unusual weather events. 
-- The scatterplot shows how temperature varies across different dates, allowing you to visually assess seasonal trends, patterns, or anomalies in NYC temperature data.
-- 
---Optional Bonus
+
+## Project Steps
+
+1. **Start a New Jupyter Notebook**
+2. **Chart a Straight Line (Part 1)**
+3. **Predict Avg High Temp in NYC in January (Parts 2 & 3)**
+4. **Add Insights (Part 4)**
+    - The visualization helps us understand how NYC temperatures change over time, how well the model fits the data, and whether there are any unusual temperature events or trends.
+    - The y-axis is limited to 10–70°F, focusing on the most relevant temperature range and making outliers more apparent.
+    - Points far from the trend line or main cluster may indicate outliers or unusual weather events.
+    - The scatterplot shows how temperature varies across different dates, allowing visual assessment of seasonal trends, patterns, or anomalies.
+
+5. **(Optional) California Housing Dataset**
+    - Load the data
+    - Train and test the model
+    - Visualize the data
+
+## California Housing - Insights
+
+- Comparing expected (actual) and predicted prices provides insight into model performance:
+    - Most points close to the diagonal line (predicted = actual) indicate accurate predictions.
+    - A tight cluster around the diagonal suggests low error and good model fit; a wide spread suggests higher prediction errors.
+    - Points far from the diagonal highlight properties where predictions are significantly off, possibly due to unique features or data issues.
+    - The plot visually reveals model accuracy, bias, error patterns, and areas for improvement.
 
 
 
-       distribute storytelling as we scroll through the notebook. 
+
 
