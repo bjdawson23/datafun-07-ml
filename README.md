@@ -103,7 +103,7 @@ py -m pip install --upgrade ipykernel jupyterlab
     - Train and test the model
     - Visualize the data
 
-## California Housing - Insights
+#### California Housing - Insights
 
 - Comparing expected (actual) and predicted prices provides insight into model performance:
     - Most points close to the diagonal line (predicted = actual) indicate accurate predictions.
